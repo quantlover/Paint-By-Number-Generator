@@ -225,9 +225,9 @@ export default function App() {
                     setSettings({ ...settings, colorSpace: event.target.value as Settings["colorSpace"] })
                   }
                 >
-                  <option value="lab">Lab — recommended, closest to how eyes see color</option>
-                  <option value="rgb">RGB — groups by camera red/green/blue values</option>
-                  <option value="hsl">HSL — groups by hue, can shift reds</option>
+                  <option value="lab">Lab — recommended</option>
+                  <option value="rgb">RGB — camera channels</option>
+                  <option value="hsl">HSL — by hue</option>
                 </select>
                 <p className="help">
                   Lab is the default because a blue sky stays one blue instead of picking up brown from the
