@@ -2,7 +2,7 @@
 
 Turn a photo into a printable paint-by-number kit: a numbered worksheet, the finished picture, and a palette with paint numbers and RGB values.
 
-**Live app: [quantlover.github.io/Paint-by-Number-Generator](https://quantlover.github.io/Paint-by-Number-Generator/)**
+**Live app: [quantlover.github.io/Paint-By-Number-Generator](https://quantlover.github.io/Paint-By-Number-Generator/)**
 
 Your photo never leaves your computer — all the processing runs in the browser.
 
