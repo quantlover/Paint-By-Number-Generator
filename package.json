@@ -1,0 +1,28 @@
+{
+  "name": "paint-by-number",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "check:fidelity": "tsx scripts/fidelityCheck.ts",
+    "check:trunks": "tsx scripts/trunkCheck.ts",
+    "check:contours": "tsx scripts/contourCheck.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "pngjs": "^7.0.0",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.2"
+  }
+}
