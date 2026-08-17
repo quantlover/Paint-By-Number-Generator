@@ -2,6 +2,10 @@
 
 Turn a photo into a printable paint-by-number kit: a numbered worksheet, the finished picture, and a palette with paint numbers and RGB values.
 
+**Live app: [quantlover.github.io/Paint-by-Number-Generator](https://quantlover.github.io/Paint-by-Number-Generator/)**
+
+Your photo never leaves your computer — all the processing runs in the browser.
+
 This is a from-scratch web app inspired by [drake7707’s generator](https://drake7707.github.io/paintbynumbersgenerator/). The original page hides important controls behind tiny “info” icons, and photos with a sky often get a muddy brown outline. This app explains every control in plain language and removes those false outlines.
 
 ## Run it
@@ -12,6 +16,8 @@ npm run dev
 ```
 
 Then open the local URL Vite prints (usually `http://localhost:5173`).
+
+Every push to `main` rebuilds and republishes the live app through the workflow in `.github/workflows/deploy.yml`.
 
 To build a static site:
 
